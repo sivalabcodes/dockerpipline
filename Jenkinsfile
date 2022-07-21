@@ -2,7 +2,7 @@ pipeline {
 environment {
 registry = "sivasobh/sivalab"
 registryCredential = 'sivasobh.p@gmail.com'
-dockerImage = 'ubuntu'
+dockerImage = ''
 }
 agent any
 stages {
