@@ -8,7 +8,7 @@ agent any
 stages {
 stage('Cloning our Git') {
 steps {
-git 'https://github.com/sivalabcodes/dockerpipline.git'
+git clone 'https://github.com/sivalabcodes/dockerpipline.git'
 }
 }
 stage('Building our image') {
