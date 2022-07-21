@@ -4,7 +4,7 @@ registry = "sivasobh/sivalab"
 registryCredential = 'sivasobh.p@gmail.com'
 dockerImage = ''
 }
-agent linux
+agent any
 stages {
 stage('Cloning our Git') {
 steps {
