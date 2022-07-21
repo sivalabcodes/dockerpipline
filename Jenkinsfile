@@ -8,7 +8,8 @@ agent any
 stages {
 stage('Cloning our Git') {
 steps {
-git clone 'https://github.com/sivalabcodes/dockerpipline.git'
+git branch: 'main', url: 'https://github.com/sivalabcodes/dockerpipline.git'
+stash name:'dockerpipline', includes:'**/*'
 }
 }
 stage('Building our image') {
